@@ -1,0 +1,8 @@
+# ネストが深すぎる
+BlockNesting:
+  Max: 3
+
+# 行が長すぎる
+LineLength:
+  Max: 100
+

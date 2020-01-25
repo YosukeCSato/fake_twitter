@@ -3,11 +3,15 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
 
-gem 'bootstrap-sass', '3.3.7'
 gem 'bcrypt', '~> 3.1.7'
+gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap-will_paginate', '1.0.0'
+gem 'faker', '1.7.3'
 gem 'jquery'
-gem 'jquery-ui-rails'
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
+gem 'will_paginate', '3.1.7'
+gem "rubocop"
 
 gem 'rails', '~> 5.2.4', '>= 5.2.4.1'
 gem 'puma', '~> 3.11'
